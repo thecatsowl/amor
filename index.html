@@ -3,11 +3,29 @@
 <html>
 <head>
   <title>Amor's Home Page</title>
+  <style>
+  .dark-mode
+  {
+	background-color: #000000;
+	color: #40e0d0;
+  }
+  </style>
   <link rel="icon" href="./favicon_9.ico" type="image/x-icon">
 </head>
 
 <body style="background-color: #008080">
-  <h1 align="center" style="color: #40e0d0">Hello, Amor! <br>This color is <em>turquoise</em>.</h1>
+   <nav>
+      <button onclick="myFunction()">Toggle Dark Mode</button>
+
+	  <script>
+	     function myFunction()
+		 {
+			 var element=document.body;
+			 element.classList.toggle("dark-mode");
+		 }
+	  </script>
+   </nav>   
+   <h1 align="center" style="color: #40e0d0">Hello, Amor! <br>This color is <em>turquoise</em>.</h1>
      <p style="color: #e0ffff">This is the color <em>lightcyan</em> .</p>
 	 <p style="color: #00ffff">This is the color <em>cyan</em>.</p>
 	 <p style="color: #afeeee">This is the color <em>paleturquoise</em>, and the background color for the entire page is <em>teal</em>.</p>
