@@ -41,10 +41,11 @@ a:visited
 {
 	color: #00ffff;
 }
-a:hover
+/* a:hover
 {
 	color: #e0ffff;
 }
+*/
 .space
 {
 	letter-spacing: 0.5em;
@@ -52,6 +53,65 @@ a:hover
 	cursor: pointer;
 	text-decoration: underline;
 }
+   footer
+   {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+
+     height: 33vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     background: #262626;
+   }
+   ul
+   {
+       display: flex;
+   }
+   ul li
+   {
+       position: relative;
+       display: block;
+       color: #666;
+       font-size: 30px;
+       height: 60px;
+       width: 60px;
+       background: #171515;
+       line-height: 60px;
+       border-radius: 50%;
+       margin: 0 15px;
+       cursor: pointer;
+   }
+   ul li:before
+   {
+       position: absolute;
+       content: '';
+       top: 0;
+       left: 0;
+       background: #d35400;
+       height: 100%;
+       width: 100%;
+       border-radius: 50%;
+       z-index: -1;
+       transform: scale(0.9);
+       transition: 0.5s;
+   }
+   ul li:hover:before
+   {
+       filter: blur(3px);
+       transform: scale(1.2);
+       box-shadow: 0 0 15px #d35400;
+
+   }
+   ul li:hover
+   {
+       color: #ffa502;
+       box-shadow: 0 0 15px #d35400;
+       box-shadow: 0 0 15px #d35400;
+   }
+
 footer
 {
 	text-align: center;
