@@ -117,7 +117,7 @@ video
 	margin:	0;
 	padding: 0;
 	list-style: none;
-
+	position: absolute;
 	height: 33vh;
 	display: flex;
 	align-items: center;
