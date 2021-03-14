@@ -106,11 +106,6 @@ video
 	text-decoration: none;
 	color: inherit;
   }
-  }
-  a:visited
-  {
-    color: #00ffff;
-  }
   /* a:hover
   {
     color: #00ffff;
@@ -193,6 +188,12 @@ video
   {
 	  background: #ff0000;
   }
+  ul li:nth-child(8):before
+  {
+	  background: #00ffff;
+	  a:link: #00ffff;
+  }
+
   ul li:hover:before
   {
 	  filter: blur(3px);
@@ -227,6 +228,10 @@ video
   ul li:nth-child(7):hover:before
   {
 	  box-shadow: 0 0 15px #ff0000;
+  }
+  ul li:nth-child(8):hover:before
+  {
+	  box-shadow: 0 0 15px #00ffff;
   }
   ul li:nth-child(1):hover
   {
@@ -270,7 +275,12 @@ video
 	  box-shadow: 0 0 15px #ff0000;
 	  text-shadow: 0 0 15px #ff0000;
   }
-
+  ul li:nth-child(8):hover
+  {
+	  color: #1affff;
+	  box-shadow: 0 0 15px #00ffff;
+	  text-shadow: 0 0 15px #00ffff;
+  }
   .dark-mode
   {
 	background-color: #000000;
