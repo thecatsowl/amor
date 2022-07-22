@@ -23,9 +23,9 @@ body
 	background-;
 	background-;
 
-	background-color: #008080;
+	background-color: #c3cde6;
 
-	color: #00ffff;
+	color: #e6dcc3;
 }
 table
 {
@@ -87,7 +87,7 @@ video
 	background-repeat: repeat-x; 
 	background-attachment: fixed;
   
-    background-color: #008080;
+    background-color: #c3cde6;
   }
   .h1_top
   {
@@ -99,7 +99,7 @@ video
   }
   table
   {
-    color: #40e0d0;
+    color: #e6dcc3;
   }
   a, a:link, visted, hover
   {
