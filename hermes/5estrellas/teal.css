@@ -1,0 +1,72 @@
+/********************************************************************************
+
+  Programmer: Robert Aguilar
+
+  Date:		  10/21/20
+
+  Filename:   teal.css
+
+
+********************************************************************************/
+
+body
+{
+	background-;
+	background-;
+	background-;
+	background-;
+	background-;
+
+	background-color: #008080;
+
+	color: #00ffff;
+}
+table
+{
+	color: #40e0d0;
+}
+.h1_top
+{
+	text-align: center;
+}
+.nav_top
+{
+	text-align: center;
+}
+a:link
+{
+	color: #afeeee;	
+}
+a:visited
+{
+	color: #00ffff;
+}
+a:hover
+{
+	color: #e0ffff;
+}
+.space
+{
+	letter-spacing: 0.5em;
+	margin: .9em;
+	cursor: pointer;
+	text-decoration: underline;
+}
+footer
+{
+	text-align: center;
+	color: #40e0d0;
+}
+.dark-mode
+{
+	background-color: #333333;
+	color: #40e0d0;
+}
+figure
+{
+	display: inline-block;	
+}
+video
+{
+
+}
