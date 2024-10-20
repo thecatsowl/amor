@@ -8,5 +8,6 @@
   user-select: auto;
   pointer-events: none;
   filter: grayscale(0.8);
+  text-align: center;
   aspect-ratio: 16/9;
 }
