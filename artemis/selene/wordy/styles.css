@@ -18,7 +18,7 @@
   background-size: cover;
   background: no-repeat center;
   margin-left: 50vw;
-  user-select: none;
+  user-select: auto;
   pointer-events: none;
 
   /*custom styles, for example grayscale appearance*/
