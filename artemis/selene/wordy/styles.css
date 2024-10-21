@@ -19,7 +19,7 @@
   background: no-repeat center;
   margin-left: 50vw;
   user-select: auto;
-  pointer-events: none;
+  pointer-events: auto;
 
   /*custom styles, for example grayscale appearance*/
   filter: grayscale(0.8);
