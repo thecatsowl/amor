@@ -5,8 +5,8 @@
   left: 0;
   width: 100%;
   mask-image: linear-gradient(to top, transparent 0%, black 50%, transparent 100%);
-  user-select: none;
-  pointer-events: none;
+  user-select: auto;
+  pointer-events: auto;
   filter: grayscale(0.8);
   text-align: center;
   aspect-ratio: 16/9;
