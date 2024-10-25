@@ -7,7 +7,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    user-select: none;
+    user-select: auto;
     pointer-events: none;
     text-align: center;
     aspect-ratio: 16/9;
